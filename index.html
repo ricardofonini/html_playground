@@ -95,5 +95,34 @@
         <td>preço</td>
     </tr>
 </table>
+
+<form action="/contato.html" method="POST">
+<label for="nome">nome</label>
+<input ide="nome" type="text" name="nome" placeholder="digite" value="valor padrão">
+<br>
+<label for="descrição">descrição</label>
+<textarea name="descrição" id="descrição" cols="30" rows="10"></textarea>
+<br>
+<label for="estado">Estado</label>
+<select>
+    <option value="PR">Paraná</option>
+    <option value="SC">Santa Catarina</option>
+    <option value="RS">Rio Grande do Sul</option>
+</select>
+<br>
+<label for="email">email</label>
+<input type="email" name="email">
+<label for="checkbox">quero receber email</label>
+<input type="checkbox" name="" id="">
+<br>
+<label for="radio">sua idade</label>
+0 a 30<input type="radio" name="age"> <br>
+30 a 60<input type="radio" name="age"> <br>
+60 a 90<input type="radio" name="age"><br>
+<br>
+<button type="submit">salvar</button>
+
+</form>
+
 </body>
 </html> 
