@@ -1,0 +1,1 @@
+alert("de dentro do meu app js")
